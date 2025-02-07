@@ -17,7 +17,7 @@ spec:
       name: 'myapp-{{.branch}}'
     spec:
       source:
-        repoURL: 'https://github.com/cddominguez/gitops-cert-level-3-examples.git'
+        repoURL: 'https://github.com/cddominguez/gitops-cert-level-3-examples'
         targetRevision: HEAD
         path: preview-environments/kustomize-preview-app/ 
         kustomize:
